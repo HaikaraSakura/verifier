@@ -1,0 +1,22 @@
+{
+    "name": "haikara/verifier",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Haikara\\Verifier\\": "src/"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "8.0"
+        }
+    },
+    "require": {
+        "php": ">=8.0 <8.4.0",
+        "ext-ctype": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
